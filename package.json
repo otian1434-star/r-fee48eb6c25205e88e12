@@ -1,0 +1,15 @@
+{
+  "name": "linye-lineage-official",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "node scripts/build-search-index.js && node scripts/prepare-public.cjs",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.5"
+  }
+}

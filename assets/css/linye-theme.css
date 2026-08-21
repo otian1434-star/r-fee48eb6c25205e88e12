@@ -1,0 +1,50 @@
+/* 凜夜天堂獨立主題：冰月、深海藍、黑晶與霜銀 */
+:root {
+  --gold: #78d6fa;
+  --gold-light: #d9f7ff;
+  --gold-dark: #397a9f;
+  --crimson: #7066d7;
+  --crimson-dim: #26205f;
+  --bg: #030711;
+  --bg2: #07101e;
+  --bg3: #0a1728;
+  --bg4: #10243b;
+  --border: rgba(112, 202, 241, .22);
+  --border-bright: rgba(139, 222, 255, .62);
+  --text: #d9e8f3;
+  --text-dim: #91a9ba;
+  --text-link: #a9e7ff;
+  --text-muted: #667f93;
+  --white: #f2fbff;
+}
+
+body { background: radial-gradient(circle at 82% -10rem, rgba(112, 96, 224, .18), transparent 38rem), radial-gradient(circle at 12% 30%, rgba(43, 155, 209, .12), transparent 32rem), #030711; color: var(--text); }
+body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: linear-gradient(115deg, transparent 0 48%, rgba(144, 221, 255, .025) 49% 50%, transparent 51%); background-size: 38px 38px; }
+#top-header { background: rgba(3, 9, 20, .94); border-bottom: 1px solid rgba(111, 211, 252, .3); box-shadow: 0 12px 32px rgba(0, 0, 0, .42); backdrop-filter: blur(16px); }
+.logo-img { width: 48px; height: 40px; object-fit: contain; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
+.logo-text, .page-hdr h1, .section-title, .content-card h1, .content-card h2, .content-card h3, .footer-col-title { font-family: "Noto Serif TC", "PMingLiU", serif; }
+.nav-dropdown, #mobile-menu { background: rgba(4, 13, 27, .985); border-color: rgba(112, 202, 241, .3); }
+.nav-dropdown { border-top-color: #6dd7ff; }
+.nav-link-top::after { background: linear-gradient(90deg, #7368e2, #8fe6ff, #7368e2); }
+.nav-dropdown a:hover { background: linear-gradient(90deg, rgba(71, 172, 222, .22), transparent); }
+.btn-line-o, .btn-register { border-color: rgba(129, 218, 255, .48); color: #d9f5ff; background: linear-gradient(135deg, #194567, #28235f); box-shadow: inset 0 1px rgba(255,255,255,.12), 0 8px 20px rgba(0,0,0,.28); }
+.btn-line-o.is-disabled, .btn-register.is-disabled, .mob-link.is-disabled, [href="#service-pending"], .service-pending { opacity: .6; cursor: not-allowed; }
+#main-wrap { background: transparent; }
+.page-hdr { position: relative; overflow: hidden; border: 1px solid rgba(108, 205, 246, .35); border-left: 4px solid #72d9ff; background: linear-gradient(110deg, rgba(71, 156, 208, .22), transparent 60%), #081528; box-shadow: inset 0 0 45px rgba(0,0,0,.35), 0 18px 34px rgba(0,0,0,.2); }
+.page-hdr::after { content: "凜夜王城檔案"; position: absolute; right: 22px; bottom: 12px; color: rgba(170, 231, 255, .14); font: 700 12px/1 "Noto Serif TC", serif; letter-spacing: .45em; }
+.page-hdr h1 { color: #d9f6ff; text-shadow: 0 0 18px rgba(83, 194, 242, .32); }
+.page-hdr-line { background: linear-gradient(90deg, #756ae0, #78ddff 38%, transparent); }
+.content-card, .section, .ann-card, .dir-card, .server-card, .update-item, .search-box, .form-section, .panel { border-color: rgba(104, 195, 236, .28) !important; background: linear-gradient(145deg, rgba(33, 91, 130, .1), transparent 48%), rgba(7, 18, 34, .92) !important; box-shadow: inset 0 1px rgba(211, 246, 255, .04), 0 12px 30px rgba(0,0,0,.22); }
+.content-card:hover, .ann-card:hover, .dir-card:hover, .server-card:hover { border-color: rgba(122, 219, 255, .55) !important; }
+.content-card a, .cms-rich a { color: #83ddff; }
+.data-table, table { border-color: rgba(101, 192, 232, .32) !important; background: rgba(3, 9, 19, .45); }
+.data-table th, table th { background: linear-gradient(180deg, #173d5b, #111936) !important; color: #d8f5ff !important; border-color: rgba(120, 211, 250, .32) !important; }
+.data-table td, table td { border-color: rgba(97, 178, 218, .18) !important; }
+.data-table tr:nth-child(even) td { background: rgba(70, 150, 191, .05); }
+input, select, textarea, .search-input { color: #e5f6ff !important; border-color: rgba(105, 198, 238, .34) !important; background: #040b16 !important; }
+.form-submit, .btn-primary { color: #eafaff !important; border: 1px solid #75d8ff !important; background: linear-gradient(135deg, #1d567a, #342d78) !important; }
+.service-pending-notice { display: grid; gap: 4px; margin: 0 0 20px; padding: 18px 20px; border: 1px solid rgba(118, 211, 250, .46); border-left: 5px solid #766ae0; background: linear-gradient(90deg, rgba(69, 91, 193, .2), rgba(47, 147, 196, .08)); }
+.service-pending-notice strong { color: #d9f5ff; font: 700 18px/1.4 "Noto Serif TC", serif; letter-spacing: .12em; }
+.service-pending-notice span { color: #9fb7c8; }
+#site-footer { border-top-color: rgba(106, 201, 241, .3); background: linear-gradient(180deg, #050d19, #02050b); }
+@media (max-width: 768px) { .page-hdr::after { display: none; } .btn-line-o.is-disabled { display: none; } }

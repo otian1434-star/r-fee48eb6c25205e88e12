@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "announcements": { "eyebrow": "NIGHT DECREE", "title": "王城公告", "buttonText": "查看全部公告", "buttonUrl": "pages/news.html" },
+    "quickLinks": { "eyebrow": "NIGHT ARCHIVE", "title": "凜夜典藏" },
+    "serverInfo": { "eyebrow": "SERVER PROFILE", "title": "伺服器資訊" },
+    "updates": { "eyebrow": "CHRONICLE", "title": "更新編年", "buttonText": "查看完整歷程", "buttonUrl": "pages/updates.html" }
+  },
+  "quickLinks": [
+    { "icon": "📥", "title": "遊戲下載", "description": "專屬載點籌備中", "url": "pages/download.html", "visible": true },
+    { "icon": "📜", "title": "版本設定", "description": "伺服器倍率", "url": "pages/version.html", "visible": true },
+    { "icon": "📖", "title": "更新編年", "description": "版本更新紀錄", "url": "pages/updates.html", "visible": true },
+    { "icon": "⚔", "title": "遊戲特色", "description": "職業與系統", "url": "pages/features-overview.html", "visible": true },
+    { "icon": "♜", "title": "世界首領", "description": "BOSS 時刻表", "url": "pages/boss-schedule.html", "visible": true },
+    { "icon": "◈", "title": "裝備典藏", "description": "武器與防具", "url": "pages/game-database.html", "visible": true },
+    { "icon": "⌕", "title": "全站搜尋", "description": "快速尋找資料", "url": "pages/search.html", "visible": true },
+    { "icon": "✦", "title": "常見問題", "description": "加入前必讀", "url": "pages/faq.html", "visible": true },
+    { "icon": "凜", "title": "官方 LINE", "description": "客服與合作洽談", "url": "register.html", "highlight": true, "visible": true }
+  ],
+  "serverCards": [
+    {
+      "title": "凜夜天堂｜09/11（五）20:00 開機",
+      "subtitle": "REALM OF THE FROST ECLIPSE · 3.81",
+      "rows": [
+        { "label": "版本", "value": "3.81 內掛（24 小時）", "highlight": true },
+        { "label": "經驗倍率", "value": "× 10（內掛 × 1）", "highlight": true },
+        { "label": "掉落倍率", "value": "× 5" },
+        { "label": "金幣倍率", "value": "× 5" },
+        { "label": "多開限制", "value": "IP 限制 3 開" },
+        { "label": "角色限制", "value": "每帳號可創 4 隻" },
+        { "label": "公頻發話", "value": "Lv.10 以上" },
+        { "label": "密語發話", "value": "Lv.5 以上" }
+      ]
+    }
+  ],
+  "updates": []
+}

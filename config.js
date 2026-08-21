@@ -1,0 +1,67 @@
+// 凜夜天堂獨立站設定。尚未建立的品牌服務一律保持停用。
+const LINYE_PENDING_LINK = "#service-pending";
+
+const FORUM_CONFIG = {
+  forumName: "凜夜天堂",
+  forumFullName: "凜夜天堂｜凜冬降臨・王者甦醒",
+  forumSlogan: "凜冬降臨・王者甦醒",
+  serverVersion: "3.81 內掛（24 小時）",
+  heroTitle: "凜夜",
+  heroSubTitle: "凜冬降臨・王者甦醒",
+  heroVideo: "",
+  heroImage: "assets/media/linye-hero.png",
+  brandLogo: "assets/media/linye-logo.png",
+
+  lineOfficial: "https://lin.ee/VwQFQxS",
+  lineCommunity: LINYE_PENDING_LINK,
+  lineCommunityName: "凜夜天堂官方社群（籌備中）",
+  lineId: "@640locpt",
+  teamName: "凜夜天堂管理團隊",
+
+  download: {
+    mainUrl: "",
+    backup1: "",
+    backup2: "",
+    backup3: "",
+    patchUrl: "",
+    updateDate: "籌備中",
+    anyDeskUrl: "https://anydesk.com/zh-tw/downloads/windows",
+  },
+
+  sponsorUrl: "",
+  promoReportUrl: "",
+
+  floatingPanel: {
+    enabled: true,
+    title: "凜夜王城捷徑",
+    note: "官方資料 · 遊戲導覽",
+    links: [
+      { label: "遊戲資料庫", icon: "典", url: "pages/game-database.html", style: "gold" },
+      { label: "遊戲下載", icon: "錄", url: "pages/download.html", style: "blue" },
+      { label: "全站搜尋", icon: "查", url: "pages/search.html", style: "dark" },
+      { label: "王城公告", icon: "詔", url: "pages/news.html", style: "dark" },
+    ],
+  },
+
+  sideBanners: { enabled: false },
+  musicPlayer: { enabled: false, title: "凜夜王城樂章", tracks: [] },
+  popup: { enabled: false },
+  heroBadges: ["✦ 3.81 內掛（24 小時）", "❄ 凜月王權篇章", "☾ 09/11（五）20:00 開機"],
+};
+
+window.LINYE_CONFIG = {
+  brandName: "凜夜",
+  productName: "天堂",
+  version: FORUM_CONFIG.serverVersion,
+  slogan: FORUM_CONFIG.forumSlogan,
+  openingDate: "2026/09/11（五）20:00 開機",
+  lineUrl: FORUM_CONFIG.lineOfficial,
+  communityUrl: FORUM_CONFIG.lineCommunity,
+  communityName: FORUM_CONFIG.lineCommunityName,
+  lineId: FORUM_CONFIG.lineId,
+  downloadUrl: FORUM_CONFIG.download.mainUrl || LINYE_PENDING_LINK,
+  sponsorUrl: FORUM_CONFIG.sponsorUrl || LINYE_PENDING_LINK,
+  promoReportUrl: FORUM_CONFIG.promoReportUrl || LINYE_PENDING_LINK,
+};
+
+window.FORUM_CONFIG_READY = Promise.resolve(FORUM_CONFIG);
