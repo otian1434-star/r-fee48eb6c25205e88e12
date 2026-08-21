@@ -13,8 +13,8 @@ const FORUM_CONFIG = {
   brandLogo: "assets/media/linye-logo.png",
 
   lineOfficial: "https://lin.ee/VwQFQxS",
-  lineCommunity: LINYE_PENDING_LINK,
-  lineCommunityName: "凜夜天堂官方社群（籌備中）",
+  lineCommunity: "https://line.me/ti/g2/_WxjZgoAtCmlwDlqMSDlJQjwhh501jPFo20weg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default",
+  lineCommunityName: "凜夜381內掛官方討論群",
   lineId: "@640locpt",
   teamName: "凜夜天堂管理團隊",
 

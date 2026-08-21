@@ -20,6 +20,18 @@
     }
   });
 
+  document.querySelectorAll("[data-community-link]").forEach((link) => {
+    if (ready(config.communityUrl)) {
+      link.href = config.communityUrl;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.classList.remove("is-pending");
+    } else {
+      link.href = "#service-pending";
+      link.removeAttribute("target");
+    }
+  });
+
   const toggle = document.querySelector(".menu-toggle");
   const nav = document.querySelector(".main-nav");
   toggle?.addEventListener("click", () => {
