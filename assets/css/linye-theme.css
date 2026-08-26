@@ -48,3 +48,38 @@ input, select, textarea, .search-input { color: #e5f6ff !important; border-color
 .service-pending-notice span { color: #9fb7c8; }
 #site-footer { border-top-color: rgba(106, 201, 241, .3); background: linear-gradient(180deg, #050d19, #02050b); }
 @media (max-width: 768px) { .page-hdr::after { display: none; } .btn-line-o.is-disabled { display: none; } }
+
+/* 五大職業特色技能｜凜夜月蝕秘典 */
+.linye-moon-hero { display:grid;grid-template-columns:150px 1fr;gap:32px;align-items:center;position:relative;overflow:hidden;margin-bottom:22px;padding:34px 38px;border:1px solid rgba(111,211,252,.36);background:radial-gradient(circle at 10% 50%,rgba(114,104,224,.22),transparent 22%),radial-gradient(circle at 88% 10%,rgba(82,192,239,.18),transparent 30%),linear-gradient(125deg,#07182c,#040a16 60%,#161440);box-shadow:inset 0 0 55px rgba(0,0,0,.45),0 20px 40px rgba(0,0,0,.3); }
+.linye-moon-hero::after { content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(120deg,transparent 0 52%,rgba(157,229,255,.04) 52.5% 53%,transparent 53.5%);background-size:40px 40px; }
+.linye-moon-orbit { display:grid;place-items:center;position:relative;width:126px;aspect-ratio:1;border:1px solid rgba(139,222,255,.42);border-radius:50%;background:radial-gradient(circle at 38% 35%,#b7efff 0 4%,#479bc4 5% 17%,#14264f 18% 46%,#070d1b 47%);box-shadow:0 0 38px rgba(77,183,231,.32),inset -16px -12px 26px rgba(0,0,0,.62); }
+.linye-moon-orbit::before,.linye-moon-orbit::after { content:"";position:absolute;width:142px;height:48px;border:1px solid rgba(131,213,248,.25);border-radius:50%;transform:rotate(-18deg); }
+.linye-moon-orbit::after { transform:rotate(58deg);opacity:.6; }
+.linye-moon-orbit span { position:relative;z-index:1;color:#e2f8ff;font:700 35px/1 'Noto Serif TC',serif;text-shadow:0 0 16px #72d9ff; }
+.linye-moon-copy { position:relative;z-index:1; }
+.linye-moon-copy small { color:#70cdec;font-size:9px;letter-spacing:.55em; }
+.linye-moon-copy h2 { margin:9px 0 8px;color:#e4f8ff;font:700 clamp(24px,3.2vw,38px)/1.3 'Noto Serif TC',serif;letter-spacing:.13em;text-shadow:0 0 18px rgba(83,194,242,.28); }
+.linye-moon-copy p { max-width:760px;color:#afc9da;font-size:13px;line-height:1.95; }
+.linye-rune-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px; }
+.linye-rune-card { --rune:#78d6fa;position:relative;overflow:hidden;scroll-margin-top:86px;min-height:292px;padding:26px;border:1px solid color-mix(in srgb,var(--rune) 38%,transparent);background:radial-gradient(circle at 100% 0,color-mix(in srgb,var(--rune) 13%,transparent),transparent 38%),linear-gradient(145deg,rgba(18,48,72,.34),rgba(4,10,20,.94));box-shadow:inset 0 1px rgba(222,248,255,.05),0 14px 32px rgba(0,0,0,.25); }
+.linye-rune-card::before { content:"";position:absolute;right:-42px;top:-42px;width:130px;height:130px;border:1px solid color-mix(in srgb,var(--rune) 24%,transparent);transform:rotate(45deg);box-shadow:0 0 0 14px rgba(105,205,245,.018),0 0 0 28px rgba(105,205,245,.012); }
+.linye-rune-card:last-child { grid-column:1/-1; }
+.linye-rune-card.rune-royal { --rune:#dcecff; }
+.linye-rune-card.rune-knight { --rune:#ff788d; }
+.linye-rune-card.rune-elf { --rune:#6fe4cf; }
+.linye-rune-card.rune-wizard { --rune:#9f91ff; }
+.linye-rune-card.rune-dark-elf { --rune:#7aa6ff; }
+.linye-rune-symbol { position:absolute;right:24px;top:18px;color:color-mix(in srgb,var(--rune) 52%,transparent);font:400 44px/1 Georgia,serif;text-shadow:0 0 18px color-mix(in srgb,var(--rune) 28%,transparent); }
+.linye-rune-card header { position:relative;padding-bottom:15px;border-bottom:1px solid color-mix(in srgb,var(--rune) 25%,transparent); }
+.linye-rune-card header small { display:block;color:var(--rune);font-size:9px;letter-spacing:.34em; }
+.linye-rune-card h2 { margin:7px 0 3px;color:#eefaff;font:700 25px/1.25 'Noto Serif TC',serif;letter-spacing:.18em; }
+.linye-rune-card header span { color:#7495aa;font-size:10px;letter-spacing:.16em; }
+.linye-rune-card > p { min-height:54px;margin:16px 0;color:#bad0de;font-size:13px;line-height:1.8; }
+.linye-rune-stats { display:grid;grid-template-columns:repeat(4,1fr);gap:7px; }
+.linye-rune-stats > span { padding:9px 6px;border:1px solid rgba(109,204,244,.14);background:rgba(3,8,17,.46);color:#e0f5ff;font-size:11px;font-weight:600;text-align:center; }
+.linye-rune-stats small { display:block;margin-bottom:2px;color:#607f94;font-size:8px;font-weight:400;letter-spacing:.1em; }
+.linye-boss-signal { display:flex;align-items:center;gap:18px;margin-top:20px;padding:18px 22px;border:1px solid rgba(116,105,226,.42);background:linear-gradient(90deg,rgba(50,43,126,.34),rgba(8,28,46,.7));box-shadow:inset 0 0 24px rgba(74,162,210,.06); }
+.linye-boss-signal > span { display:grid;place-items:center;width:42px;height:42px;border:1px solid rgba(130,219,255,.4);color:#94e5ff;background:#071425;font-size:20px;box-shadow:0 0 18px rgba(80,190,235,.18); }
+.linye-boss-signal strong { color:#dff8ff;font:700 14px/1.4 'Noto Serif TC',serif;letter-spacing:.18em; }
+.linye-boss-signal p { margin-top:3px;color:#90aabd;font-size:12px; }
+@media (max-width:760px) { .linye-moon-hero{grid-template-columns:82px 1fr;gap:18px;padding:26px 20px}.linye-moon-orbit{width:74px}.linye-moon-orbit::before,.linye-moon-orbit::after{width:84px;height:30px}.linye-moon-orbit span{font-size:25px}.linye-moon-copy small{letter-spacing:.22em}.linye-rune-grid{grid-template-columns:1fr}.linye-rune-card:last-child{grid-column:auto}.linye-rune-card{min-height:0;padding:22px 18px}.linye-rune-stats{grid-template-columns:repeat(2,1fr)} }
