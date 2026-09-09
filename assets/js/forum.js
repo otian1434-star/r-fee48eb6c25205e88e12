@@ -80,7 +80,7 @@
           <div class="nav-dropdown">
             <a href="${r}pages/updates.html">📋 更新歷程</a>
             <a href="${r}pages/news.html">📰 最新文章</a>
-            <a href="${r}pages/events.html">🌕 開服活動</a>
+            <a href="${r}pages/events.html">🌕 活動公告</a>
             <div class="nav-dd-divider"></div>
             <div class="nav-dd-label">規章制度</div>
             <a href="${r}pages/disclaimer.html">🦊 免責聲明</a>
@@ -197,7 +197,7 @@
       <a class="mob-link" href="${r}pages/game-database.html">📚 遊戲資料庫</a>
       <a class="mob-link" href="${r}pages/updates.html">📋 更新歷程</a>
       <a class="mob-link" href="${r}pages/news.html">📰 最新文章</a>
-      <a class="mob-link" href="${r}pages/events.html">🌕 開服活動</a>
+      <a class="mob-link" href="${r}pages/events.html">🌕 活動公告</a>
 
       <div class="mob-section">系統公告</div>
       <a class="mob-link mob-sub" href="${r}pages/disclaimer.html">🦊 免責聲明</a>
@@ -372,7 +372,7 @@
             <li><a href="${r}pages/download.html">遊戲下載</a></li>
             <li><a href="${r}pages/version.html">版本設定</a></li>
             <li><a href="${r}pages/updates.html">更新歷程</a></li>
-            <li><a href="${r}pages/events.html">開服活動</a></li>
+            <li><a href="${r}pages/events.html">活動公告</a></li>
             <li><a href="${r}pages/faq.html">常見問題</a></li>
             <li><a href="${r}pages/boss-schedule.html">BOSS時刻表</a></li>
           </ul>
